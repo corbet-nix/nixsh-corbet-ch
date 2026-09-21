@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Proves the ONE claim `nixsh.underlay`'s shell layer rests on, against real shell binaries rather
 # than against documentation: a distro base sourced FIRST loses every name collision to nixsh's own
 # content sourced after it.

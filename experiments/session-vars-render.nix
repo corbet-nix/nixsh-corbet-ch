@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Renders modules/home.nix against a REAL home-manager evaluation and reads back whether
 # home-manager's own session variables actually reached each shell.
 #

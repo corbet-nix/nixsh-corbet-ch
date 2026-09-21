@@ -8,7 +8,7 @@ TUIs, CLI tools, and their shell-integration hooks, resolved to the right packag
 platform. Every host has a shell and reaches for a terminal tool, so unlike the display-substrate
 family (nixdesktop/nixmedia/nixrecord) neither half of this repo has a per-host story to build.
 
-Absorbs [nixfish](https://github.com/julian-corbet/nixfish-corbet-ch). That module's real
+Absorbs [nixfish](https://github.com/corbet-nix/nixfish-corbet-ch). That module's real
 contribution was never fish-specific: it was the *adoption pattern* — how to take over a config
 file a vendor package or years of hand-editing already owns — plus a typed primitive for fish
 universal variables. The first problem is identical for bash and zsh, so it generalises.
@@ -89,7 +89,7 @@ which is the clobbering this backend exists to avoid.
 ## The tool catalogue
 
 `nixsh.tools.*` — shells, TUIs, CLI tools, and their configs, in one platform-neutral selection
-surface, same shape as [nixmedia](https://github.com/julian-corbet/nixmedia-corbet-ch)'s own
+surface, same shape as [nixmedia](https://github.com/corbet-nix/nixmedia-corbet-ch)'s own
 catalogue but nested under `nixsh.tools` rather than flattened (nixsh already has a top-level
 `nixsh.terminal` — the terminal EMULATOR — so a tools group also named `terminal` would sit
 inches away and mean something unrelated).
@@ -112,7 +112,7 @@ header for the full reasoning and further worked examples (cmus, zathura, OBS, a
 The rule decides display, not subject, so one boundary is worth stating outright: **no database
 tool is catalogued here.** Wire-protocol shells, multi-engine command lines and the inspectors that
 open a database file on disk all pass the terminal test and all belong to
-[nixdb](https://github.com/julian-corbet/nixdb-corbet-ch) instead, because subject beats substrate
+[nixdb](https://github.com/corbet-nix/nixdb-corbet-ch) instead, because subject beats substrate
 when a repository exists for the subject. `visidata` is the near miss and stays: SQLite is one of
 two dozen formats it opens, so reading a database is something it *can* do rather than what it is
 *for*.
@@ -314,12 +314,12 @@ switch links them. Everything named in `ours` stays yours and is never involved.
 ## Related projects
 
 Part of the same independently-usable NixOS module family:
-[nixmedia](https://github.com/julian-corbet/nixmedia-corbet-ch) (media consumption — the
-display-substrate side of the placement rule above), [nixrecord](https://github.com/julian-corbet/nixrecord-corbet-ch)
+[nixmedia](https://github.com/corbet-nix/nixmedia-corbet-ch) (media consumption — the
+display-substrate side of the placement rule above), [nixrecord](https://github.com/corbet-nix/nixrecord-corbet-ch)
 (declarative screen recording via OBS — where `record`'s screen half lives, as opposed to this
-repo's terminal-session half), and [nixarch](https://github.com/julian-corbet/nixarch-corbet-ch)
+repo's terminal-session half), and [nixarch](https://github.com/corbet-nix/nixarch-corbet-ch)
 (the Arch host reconciler every `systemManagerModules` backend in this family publishes into).
 
-## License
+## Licence
 
-MIT.
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

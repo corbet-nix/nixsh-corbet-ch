@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Evaluates modules/tools.nix for real against `lib.evalModules` and asserts what it resolves —
 # the same "Nix inspecting Nix" tier nixmedia's own checks/catalogue-eval.nix is (see that file's
 # header for why `nix flake check` needs this at all: it does not evaluate homeModules/

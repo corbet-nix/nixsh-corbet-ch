@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Renders all three shells from one declaration and checks the SHARED layer really did come out in
 # three different syntaxes -- which is the only thing in this module worth abstracting, and the
 # thing most likely to be silently wrong.

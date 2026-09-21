@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # nixsh's tool catalogue, as policy: selection groups + the resolved lists a backend consumes --
 # same shape as nixmedia's own modules/nixmedia.nix, one flat group per selectable domain.

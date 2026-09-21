@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Arch backend — publishes pacman/AUR names and installs only an exceptional custom Nix package
 # when upstream has no Arch package. An entry may carry `package` as a NixOS fallback while still
 # naming an Arch package (termpdf); that entry stays entirely with the host reconciler here and is

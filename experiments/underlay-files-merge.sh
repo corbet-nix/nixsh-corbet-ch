@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Proves the `layer = "files"` half of `nixsh.underlay` (modules/nixsh.nix), which is the half with
 # no source order to lean on: a tool with no include mechanism and a single settings file, whose
 # colorschemes and syntax definitions are separate FILES that can plausibly come from the distro

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home-manager backend — composes with whatever already writes the rc files, and installs nothing.
 #
 # TWO PROBLEMS THIS AVOIDS.

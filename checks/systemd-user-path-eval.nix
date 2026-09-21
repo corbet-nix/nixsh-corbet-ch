@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Evaluates the home backend's systemd-user PATH projection (`nixsh.environment.systemdUserPath`)
 # and asserts what it renders -- the same "Nix inspecting Nix" tier as its two siblings, and needed
 # for the reason checks/tools-eval.nix's own header states: `nix flake check` does not evaluate

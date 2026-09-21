@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Package names drift between distros, and existence alone does not prove a name still WORKS.
 # This checks every non-null nixpkgs attribute in lib/tools.nix actually resolves.
 #

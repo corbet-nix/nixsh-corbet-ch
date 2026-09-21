@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Reproduces the verification every (arch, nixpkgs) pair in lib/tools.nix was checked against
 # before being committed: `pacman -Si` (and, for the AUR-only names, the AUR RPC) for the Arch
 # side; a force-evaluating `nix-instantiate --eval` for the nixpkgs side. This is the manual,

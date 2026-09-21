@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The tool catalogue: shells, TUIs, CLI tools, and their configs -- everything that lives in a
 # terminal. Every host has a shell, so unlike nixmedia/nixdesktop/nixrecord this catalogue has no
@@ -514,7 +515,7 @@
   # NO DATABASE TOOL BELONGS HERE, and the boundary is by what a tool addresses rather than by what
   # it can be pointed at. Wire-protocol shells, multi-engine command lines and the inspectors that
   # open a database file on disk are all catalogued by nixdb
-  # (github:julian-corbet/nixdb-corbet-ch), the repository whose subject is databases. "Runs in a
+  # (github:corbet-nix/nixdb-corbet-ch), the repository whose subject is databases. "Runs in a
   # terminal" and "reads structured data" are both true of them and neither is the test.
   #
   # `visidata` below is the near miss, and it stays: it opens two dozen file formats and SQLite is
@@ -620,7 +621,7 @@
       arch = "timg";
       aur = true;
       nixpkgs = "timg";
-      note = "sixel-/kitty-graphics-protocol-aware terminal image and video viewer -- a genuine second choice alongside chafa, not a duplicate. AUR-only on Arch, an ordinary nixpkgs attribute -- already established by nixmedia's own studies/timg-arch-aur-only.md (github.com/julian-corbet/nixmedia-corbet-ch), which catalogues the same package for the same reason and reached the identical finding; not re-derived here.";
+      note = "sixel-/kitty-graphics-protocol-aware terminal image and video viewer -- a genuine second choice alongside chafa, not a duplicate. AUR-only on Arch, an ordinary nixpkgs attribute -- already established by nixmedia's own studies/timg-arch-aur-only.md (github.com/corbet-nix/nixmedia-corbet-ch), which catalogues the same package for the same reason and reached the identical finding; not re-derived here.";
     };
     tdf = {
       arch = "tdf";

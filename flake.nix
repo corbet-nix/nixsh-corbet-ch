@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "nixsh — every shell on every machine, declared, plus the terminal-native tool catalogue: shared environment, per-shell config, shell-integration hooks, and every binary left to the system";
 

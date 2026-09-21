@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Evaluates the underlay (modules/nixsh.nix's `nixsh.underlay`) for real against `lib.evalModules`
 # and asserts what it resolves to -- the same "Nix inspecting Nix" tier checks/tools-eval.nix is,
 # and needed for the same reason that file's own header states: `nix flake check` does not evaluate

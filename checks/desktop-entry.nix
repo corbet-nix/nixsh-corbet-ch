@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Proves `nixpkgsDesktop` actually reaches the FILE, not just the Nix expression.
 #
 # This is deliberately a BUILD check rather than an eval one, unlike its neighbours. What

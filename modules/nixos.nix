@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # NixOS backend — here the system IS nix, so installing the shells is correct rather than a
 # duplication. environment.systemPackages puts them in /run/current-system/sw/bin, which is the
 # system path on this platform; /etc/shells picks them up the usual way.
